@@ -88,13 +88,13 @@ def main():
             st.markdown(f"**Device:** `{device}`")
             cpu_offload = st.checkbox(
                 "Enable CPU offloading",
-                value=True if device == "cuda" else False,
-                disabled=True if device == "cpu" else False,
+                value=device == "cuda",
+                disabled=device == "cpu",
             )
             attention_slice = st.checkbox(
                 "Enable attention slicing (slow)",
-                value=True if device == "mps" else False,
-                disabled=True if device == "cpu" else False,
+                value=device == "mps",
+                disabled=device == "cpu",
             )
 
         if st.button("Generate", use_container_width=True):
