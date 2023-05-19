@@ -23,7 +23,7 @@
 #
 
 import argparse
-import cv2
+import opencv-python
 
 import streamlit as st
 
