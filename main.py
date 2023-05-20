@@ -46,9 +46,7 @@ def main():
         page_icon="🎥",
         layout="wide",
         menu_items={
-            "Get Help": "https://github.com/kpthedev/ez-text2video",
-            "Report a bug": "https://github.com/kpthedev/ez-text2video/issues",
-            "About": "# ez-text2video 🎥 \n A Streamlit app to easily run the text-to-video diffusion model.",
+            "About": "# eCarnegie text to video 🎥 \n An app tocreate videos frm text prompts",
         },
     )
     st.write("# ez-text2video 🎥")
