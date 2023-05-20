@@ -1,12 +1,12 @@
 name: t2v
 channels:
-  - pytorch
+  - torch
   - nvidia
   - defaults
 dependencies:
   - python=3.10
   - pip=23.0.1
-  - pytorch=2.0.0
+  - torch=1.13.0
   - pip:
     - accelerate==0.18.0
     - numpy
