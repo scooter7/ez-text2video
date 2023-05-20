@@ -1,6 +1,6 @@
 name: t2v
 channels:
-  - torch
+  - pytorch
   - nvidia
   - defaults
 dependencies:
