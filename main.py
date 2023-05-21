@@ -23,7 +23,7 @@
 #
 
 import argparse
-import opencv-python==4.7.0.72
+import opencv-python
 
 import streamlit as st
 
